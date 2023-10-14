@@ -16,7 +16,11 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.title {
+  @extend %dmsans-700;
+  color: $title;
+  font-size: 36px;
+}
 a {
   font-size: 14px;
   line-height: 21px;
